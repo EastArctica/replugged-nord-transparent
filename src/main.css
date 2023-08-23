@@ -1,216 +1,405 @@
-/* Credit to https://github.com/Overimagine1/old-discord-font */
+/* Initially developed by trevarj at https://github.com/trevarj/glasscord-nord/ */
 
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/46933da896ba96126074286056614542.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1651ce6325c0da043476ace0bec3971b.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/24bda95d153a319704c33329f3ab84bb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7f18f1d5ab6ded7cf71bbc1f907ee3d4.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/cf4a8a10bbdf9b775fad41e0b9921c84.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9cfa747e897c772d25efd8e4a42a005e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9e7047f6447547781512ec4b977b2ab.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/21070f52a8a6a61edef9785eaf303fb8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9c8fcfa7dcc5d6a291a6ebbe3bb847e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e1649183589023fb24667a369af585d.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ab688947d482808a0b3347f84ebb17a9.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/0635f419b122d24f9f60ac4d1066cbc6.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/91dcabd038a2e07ea6fbe7ddb625ecfb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ea053183733605b24806f222b067b1e1.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9491a199bd318f1fc38711fb5067f401.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f0cf30536a7fa447f0c45fdb3b2a6f28.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7d66dfcf8e39f27f163fba8d79577fd8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9a07cb5ae387a52309b7198543ae5e02.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e6f352adb4a6b55ed230f2f91769156.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/30b475dcfa1e8b74d815946e4c18ee09.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1ace668db419a5014cf75bc116321af3.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/50510b66614a2f395530c61b7c9b6827.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9e94673570e295b6fb5d4456c4211015.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/6603a2fb4d2bc997e023972a51938144.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/87c79174865938aedf188b7344fb0428.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/d93311938f51e8608a5d5cb2ea975157.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/bc5af8e71e27d363e2eeac75c9628922.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/dc407fd65057fce34a56bf7b6ebb0b9f.woff2)
-    format("woff2");
+.theme-dark {
+  --background-primary: transparent;
+  --background-primary-alt: #2e344080;
+  --background-secondary: #2e344080;
+  --background-secondary-base: 46, 52, 64; /* #2e3440 */
+  --background-secondary-chat: #2e344080;
+  --background-secondary-alt: #2e344080;
+  --background-tertiary: #3b425280;
+  --background-logo: #2e3440a080;
+  --deprecated-card-bg: #3b425280;
+  --deprecated-store-bg: #3b425280;
+  --background-attachments: #3b425280;
+  --background-search-bar: #4c566a80;
+  --background-switcher: #3b425280;
+  --background-chatbox: #4c566a80;
+  --background-lights-out: #000;
+  --background-pinned: #2f313080;
+  --background-profile-expand: #3b425280;
+  --background-emoji: #3b425280;
+  --text-lights-out: #f0f0f0;
+  --background-titlebar: #2e344080;
 }
 
-:root {
-  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-headline: "ABC Ginto Nord", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
-    "Courier New", Courier, monospace;
-  --font-korean: Whitney, "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740 \ACE0\B515",
-    "Malgun Gothic", Gulim, 굴림, Dotum, 돋움, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-japanese: Whitney, "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3",
-    "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  --font-chinese-simplified: Whitney, "Microsoft YaHei New", 微软雅黑, "Microsoft Yahei",
-    "Microsoft JhengHei", 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-chinese-traditional: Whitney, "Microsoft JhengHei", 微軟正黑體, "Microsoft JhengHei UI",
-    "Microsoft YaHei", 微軟雅黑, 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* ! Look into this */
+.theme-dark
+  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+  .scroller-3vVt8d::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border: 4px solid transparent;
+}
+
+/* ! Look into this */
+.theme-dark
+  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+  .scroller-3vVt8d::-webkit-scrollbar-thumb {
+  background-color: #20222550;
+}
+
+/* 433979 */
+.theme-dark .container-2cd8Mz {
+  background-color: transparent;
+}
+
+/* 768864 */
+.theme-dark .card-2ART2V:before {
+  background-color: #33363c90;
+}
+
+/* 569851 */
+.theme-dark .codeRedemptionRedirect-2hYMSQ {
+  background-color: #2f313650;
+  border-color: #20222550;
+}
+
+/* 968370 */
+.theme-dark .pageWrapper-2PwDoS {
+  background-color: transparent;
+}
+
+/* 235451 */
+.withFrame-2dL45i {
+  height: 18px;
+  margin-top: 0;
+  padding-top: 4px;
+}
+
+/* 510872 */
+.premiumPromo-1eKAIB {
+  background-color: var(--background-secondary-chat);
+  backdrop-filter: blur(2px);
+}
+
+/* 411325 */
+.unread-36eUEm {
+  height: 4px;
+  width: 4px;
+  margin-top: -2px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+/* 179799 */
+.newMessagesBar-1hF-9G .barBase-3xxDXu {
+  border-radius: 8px;
+  padding-bottom: 0;
+}
+
+/* 399920 */
+.platform-win .sidebar-1tnWFu {
+  border-radius: 0;
+}
+
+/* 174866 */
+.platform-osx .scroller-3X7KbA {
+  padding-top: 32px;
+  -webkit-mask: linear-gradient(#0000, #fff 32px);
+}
+
+/* 174866 */
+.platform-osx .wrapper-1_HaEi {
+  margin-top: 0;
+}
+
+/* 235451 */
+.typeMacOS-3V4xXE .titleBar-1it3bQ {
+  background-color: transparent !important;
+}
+
+/* 174866 */
+.platform-osx .unreadMentionsIndicatorTop-2bTgUU {
+  top: 32px;
+}
+
+/* 398868 */
+.platform-osx .back-ZdqB1k {
+  -webkit-app-region: no-drag;
+}
+
+/* 398868 */
+.platform-osx .button-3_1yil {
+  -webkit-app-region: no-drag;
+}
+
+/* 127919 */
+.messagesPopoutWrap-3zryHW {
+  background-color: var(--background-pinned);
+}
+
+/* ! 838229 Note: Has no notice class */
+/*.notice-2FJMB4 {
+  background-color: var(--background-secondary) !important;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}*/
+
+/* ! 898920 or 687042 */
+.emojiPicker-6YCk8a {
+  background-color: var(--background-emoji);
+}
+
+/* 378355 */
+.appMount-2yBXZl {
+  background-color: transparent;
+}
+
+/* 854735 */
+.app-2CXKsg {
+  background-color: transparent;
+}
+
+/* 232469 */
+.attachment-1PZZB2 .horizontal-1Piu5- .flex-3BkGQD .directionRow-2Iu2A9 .alignCenter-14kD11 {
+  background-color: var(--background-attachments) !important;
+}
+
+/* 273413 */
+.header-3OsQeK {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 779622 */
+.privateChannels-oVe7HL {
+  background-color: transparent;
+}
+
+/* 619531 */
+.root-8LYsGj {
+  background-color: var(--background-profile-expand);
+}
+
+/* 937106 */
+.container-1NXEtd {
+  background-color: transparent;
+}
+
+/* 794921 */
+.inset-SbsSFp {
+  background-color: var(--background-secondary) !important;
+}
+
+/* 25327 */
+/*.container-3Mmg92.themed-Hp1KC_ {*/
+.cointainer-1r6BKw.themed-ANHk51 {
+  background-color: var(--background-secondary);
+}
+
+/* 174866 */
+.wrapper-1_HaEi {
+  background-color: var(--background-secondary);
+}
+
+/* 984187 */
+.childWrapper-2VY8PD {
+  background-color: var(--background-logo);
+}
+
+/* 202772 */
+.circleIconButton-1VxDrg {
+  background-color: var(--background-logo);
+}
+
+/* 966805 */
+.searchBar-jGtisZ {
+  background-color: var(--background-search-bar);
+}
+
+/* 779622, Search bar on home menu */
+.searchBar-3TnChZ {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: var(--background-secondary);
+}
+
+/* 247630 */
+.searchHeader-1r_ZSh {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* 748355 */
+.channelNameText-2q3Lge {
+  background-color: transparent;
+}
+
+/* 988206, maybe container-rZM65Y */
+.searchResult-O9NDji:before {
+  background-image: none;
+}
+
+/* 988206, maybe container-rZM65Y */
+.searchResult-O9NDji:after {
+  background-image: none;
+}
+
+/* We no longer have these, they were used for server boosts */
+/*
+.perksModal-fSYqOq {
+  background-color: transparent !important;
+}
+
+.ctaBar-2UsjF2 {
+  background-color: var(--background-attachments) !important;
+}
+
+this turned into tierCard
+.tierBody-16Chc9 {
+  background-color: var(--background-secondary-chat) !important;
+}
+
+this turned into topPerksCard
+.perk-2WeBWW {
+  background-color: var(--background-attachments) !important;
+}
+*/
+
+/* 258875 */
+.content-1jQy2l:before {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 433979 */
+.tabBody-2dgbAs:before {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 248231 */
+.container-3u6dG-:before {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*
+Kinda app store thing, kinda just nitro thing, idk. Now it's auto-2TJ1RH in 441086
+.container-xm7Ad0:before {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+*/
+
+/* 779622 */
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--background-search-bar);
+}
+
+/* 582095 */
+.scroller-WSmht3 {
+  background-color: transparent;
+}
+
+/* 174866 */
+.scroller-3X7KbA {
+  background-color: var(--background-secondary);
+}
+
+/* 116707 */
+.quickswitcher-pKcM9U {
+  background-color: var(--background-switcher);
+}
+
+/* 9180 Not the slightest clue what this is
+.wrapper-2aW0bm {
+  background-color: var(--background-primary-alt);
+}
+*/
+
+/* 988206 */
+.message-24k8JL {
+  background-color: var(--background-primary-alt);
+}
+
+/* 116707 */
+.scroller-2qwVWY {
+  background-color: transparent;
+}
+
+/* 710978 */
+.embedFull-1HGV2S.embed-hKpSr0 {
+  background-color: var(--background-attachments);
+}
+
+/* 113358 */
+.messagesWrapper-RpOMA3 {
+  margin-bottom: 8px;
+}
+
+/* 399920 */
+.panels-3wFtMD {
+  background-color: transparent;
+}
+
+/* 235451 */
+.titleBar-1it3bQ {
+  background-color: var(--background-titlebar);
+}
+
+/* 36627 */
+.uploadArea-2Nu_Vc {
+  background-color: var(--background-lights-out);
+}
+
+/* 842157 */
+.backdropWithLayer-2VVmpp {
+  background-color: var(--background-lights-out) !important;
+}
+
+/* 842157 */
+.backdrop-2ByYRN {
+  background-color: var(--background-lights-out) !important;
+}
+
+/* 533366 */
+.downloadLink-3cavAH {
+  color: var(--text-lights-out) !important;
+}
+
+/* 858456 */
+.bg-1QIAus {
+  -webkit-mask-image: linear-gradient(#000f, #0000) !important;
+}
+
+/* 686390 */
+.scrollableContainer-15eg7h {
+  background-color: var(--background-chatbox);
+}
+
+/* Inner box on My Account page around all fields */
+.fieldList-in8WkP {
+  background-color: transparent;
+}
+
+/* Bottom of Privacy & Safety, Top of Authorized Apps */
+.card-2guEcY:not(.outline-3kFzf8) {
+  background-color: var(--deprecated-card-bg);
+}
+
+/* Inside of uploaded plaintext file */
+.codeView-12LUIl {
+  background-color: transparent;
+}
+
+/* Member list background of individual user */
+.member-2gU6Ar {
+  background-color: transparent;
+}
+
+/* --__header-bar-background, [aria-label="Channel header"] */
+.themed-Hp1KC_ {
+  /* This element is next to elements nearby that use background-secondary,
+  however they are stacked. To mimic this, we change the opacity to act as
+  though we're stacked
+  */
+  background-color: rgba(var(--background-secondary-base), 0.75) !important;
+}
+
+/* On home screen, right side now playing column */
+.nowPlayingColumn-1eCBCN {
+  /* Read comment in .themed-Hp1KC_ */
+  background-color: rgba(var(--background-secondary-base), 0.75);
 }

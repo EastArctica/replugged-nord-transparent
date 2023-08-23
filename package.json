@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
+  "name": "replugged-nord-transparent",
   "version": "1.0.0",
-  "description": "A theme template",
+  "description": "Transparent Replugged theme with Nord (nordtheme.com) palette",
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
@@ -15,8 +15,8 @@
     "lint:fix": "prettier ./src --write"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "EastArctica",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/config-default": "^2.9.3",
     "@parcel/core": "^2.9.3",

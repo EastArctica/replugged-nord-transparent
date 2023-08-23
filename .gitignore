@@ -105,3 +105,6 @@ dist
 
 .parcel-cache
 /bundle
+
+# Locally used for updates
+discord_css_files

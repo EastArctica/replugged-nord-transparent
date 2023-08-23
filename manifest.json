@@ -1,20 +1,20 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "ca.eastarci.NordTransparent",
+  "name": "Nord Transparent",
+  "description": "Transparent Replugged theme with Nord (nordtheme.com) palette",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "East_Arctica",
+    "discordID": "573613510060146708",
+    "github": "EastArctica"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "EastArctica/replugged-nord-transparent"
   },
   "license": "MIT",
   "type": "replugged-theme",
   "main": "src/main.css",
-  "source": "https://github.com/replugged-org/theme-template",
+  "source": "https://github.com/EastArctica/replugged-nord-transparent",
   "image": ["https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"]
 }
