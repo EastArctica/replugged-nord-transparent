@@ -16,5 +16,7 @@
   "type": "replugged-theme",
   "main": "src/main.css",
   "source": "https://github.com/EastArctica/replugged-nord-transparent",
-  "image": ["https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"]
+  "image": [
+    "https://media.discordapp.net/attachments/1000955967627874424/1144010243626512474/Theme.png"
+  ]
 }
