@@ -1,6 +1,6 @@
 {
   "name": "replugged-nord-transparent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transparent Replugged theme with Nord (nordtheme.com) palette",
   "engines": {
     "node": ">=18.0.0",
@@ -21,7 +21,9 @@
     "@parcel/config-default": "^2.9.3",
     "@parcel/core": "^2.9.3",
     "@types/node": "^18.17.6",
-    "prettier": "^2.8.8",
-    "replugged": "^4.6.0"
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "replugged": "^4.8.3"
   }
 }
