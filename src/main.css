@@ -1,26 +1,36 @@
 /* Initially developed by trevarj at https://github.com/trevarj/glasscord-nord/ */
 
+:root {
+  --window-background-material: "acrylic";
+  --window-background-color: #00000000;
+}
+
+html,
+body {
+  background: transparent;
+}
+
 .theme-dark {
   --background-primary: transparent;
-  --background-primary-alt: #2e344080;
-  --background-secondary: #2e344080;
+  --background-primary-alt: #2e344010;
+  --background-secondary: #2e344010;
   --background-secondary-base: 46, 52, 64; /* #2e3440 */
-  --background-secondary-chat: #2e344080;
-  --background-secondary-alt: #2e344080;
-  --background-tertiary: #3b425280;
+  --background-secondary-chat: #2e344010;
+  --background-secondary-alt: #2e344010;
+  --background-tertiary: #3b425210;
   --background-logo: #2e3440a080;
-  --deprecated-card-bg: #3b425280;
-  --deprecated-store-bg: #3b425280;
-  --background-attachments: #3b425280;
-  --background-search-bar: #4c566a80;
-  --background-switcher: #3b425280;
-  --background-chatbox: #4c566a80;
+  --deprecated-card-bg: #3b425210;
+  --deprecated-store-bg: #3b425210;
+  --background-attachments: #3b425210;
+  --background-search-bar: #4c566a10;
+  --background-switcher: #3b425210;
+  --background-chatbox: #4c566a10;
   --background-lights-out: #000;
-  --background-pinned: #2f313080;
-  --background-profile-expand: #3b425280;
-  --background-emoji: #3b425280;
+  --background-pinned: #2f313010;
+  --background-profile-expand: #3b425210;
+  --background-emoji: #3b425210;
   --text-lights-out: #f0f0f0;
-  --background-titlebar: #2e344080;
+  --background-titlebar: #2e344010;
 }
 
 /* ! Look into this */
